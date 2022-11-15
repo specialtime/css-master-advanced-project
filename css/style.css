@@ -602,33 +602,38 @@ aside h3{
     height: 100px;
     margin-top: 60px;
     line-height: 100px;
-    text-align: center;
-    transition: all 1s;
+    text-align: center;    
+    transition: all 2s;
 }
 
 #blog:hover{
-    border: 10px solid #37bcf9;
+    border-width: 10px;
+    border-color:#37bcf9;
     border-radius: 240px;
-    box-shadow: 0px 0px 10px gray;
+    box-shadow: 10px 10px 15px 10px gray;
     background-color: #333;
-    animation: blink 5s infinite linear;
+    animation: blink 7s infinite linear;
 }
+
 
 @keyframes blink {
     0%{
-        border: 10px solid #37bcf9;
+        border-color:  #37bcf9;
+    }
+    18%{
+        border-color:  #37bcf9;
     }
     25%{
-        border: 10px solid green;
+        border-color:  green;
     }
     50%{
-        border: 10px solid yellow;
+        border-color:  yellow;
     }
     75%{
-        border: 10px solid white;
+        border-color:  white;
     }
     100%{
-        border: 10px solid #37bcf9;
+        border-color: #37bcf9;
     }
 }
 
