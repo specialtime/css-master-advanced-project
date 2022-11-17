@@ -310,7 +310,7 @@
     }
 }
 
-@media (max-width:404px) {
+@media (max-width:450px) {
     .card {
         width: 15%;
         margin: 2.3%;
