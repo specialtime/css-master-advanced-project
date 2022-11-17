@@ -181,7 +181,7 @@
     .card:hover .icon {
         font-size: 55px;
     }
-    
+
     #articles{
         float: none;
         width: 100%;
@@ -271,6 +271,8 @@
 
     .card .icon{
         font-size: 35px;
+        height: 100px;
+        line-height: 75px;
     }
 
     .card:hover .icon{
