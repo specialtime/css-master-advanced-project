@@ -178,6 +178,10 @@
 }
 
 @media (max-width:660px) {
+    .card:hover .icon {
+        font-size: 55px;
+    }
+    
     #articles{
         float: none;
         width: 100%;
