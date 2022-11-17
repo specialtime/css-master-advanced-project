@@ -309,3 +309,10 @@
         margin-top: 20px;
     }
 }
+
+@media (max-width:404px) {
+    .card {
+        width: 15%;
+        margin: 2.3%;
+    }
+}
