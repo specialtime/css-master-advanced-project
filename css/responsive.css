@@ -269,6 +269,10 @@
         font-size: 35px;
     }
 
+    .card:hover .icon{
+        font-size: 35px;
+    }
+
     .card .category{
         font-size: 11px;
         height: 30px;
