@@ -1,43 +1,158 @@
 @media (max-width:1250px) {
-    .wrap{
-       width: 90%;
-       margin: 0 auto; 
-    }
 
-    #banner h1{
+    #banner h1 {
         font-size: 35px;
         text-align: center;
         margin: 33px auto;
+        width: 100%;
     }
 
-    .card{
-        width: 17%;
-        margin: 1.45%;
-    }
-    .card p{
+
+    .card p {
         width: 90%;
         display: block;
         margin: 0 auto;
         text-align: center;
     }
 
-    #articles{
-        width: 67%;
+    .card {
+        width: 17%;
+        margin: 1.45%;
+    }
+
+    .wrap {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    #articles {
+        width: 65%;
 
     }
-    #articles article{
+
+    #articles article {
         width: 97%;
     }
 
-    #footer .wrap > div{
+    #footer .wrap>div {
         width: 24%;
     }
-    #footer #browsers img{
+
+    #footer #browsers img {
         width: 14%;
     }
 
-    #footer h5{
+    #footer h5 {
         font-size: 30px;
     }
-        
+
+    #footer img {
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .wrap {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width:1080px) {
+    .card .category {
+        font-size: 17px;
+    }
+
+    .card .description {
+        font-size: 14px;
+    }
+
+    #articles {
+        width: 61%;
+
+    }
+
+    @media (max-width:970px) {
+        #articles {
+            width: 59%;
+        }
+
+        #footer h5 {
+            font-size: 22px;
+        }
+    }
+}
+
+@media (max-width:953px) {
+    #articles {
+        width: 65%;
+    }
+
+    #lateral {
+        width: 25%;
+    }
+
+    #lateral input[type="text"] {
+        width: 78%;
+    }
+
+    .aside-box {
+        width: 95%;
+        min-height: 140px;
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    #login a {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #login input[type="email"],
+    #login input[type="password"] {
+        width: 65%;
+    }
+
+    #login #user,
+    #login #password {
+        margin-left: 24px;
+    }
+
+    #login input[type="reset"] {
+        display: none;
+    }
+
+    #login input[type="submit"],
+    #login button {
+        margin-bottom: 0px;
+    }
+
+    #footer .wrap>div {
+        width: 26%;
+        margin: 20px;
+    }
+}
+
+@media (max-width:899px) {
+    #lateral h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:799px) {
+    #banner h1 {
+        font-size: 29px;
+    }
+    .card{
+        height: auto;
+    }
+
+    .card .category{
+        font-size: 15px;
+        margin-top: -23px;
+    }
+
+    .card .description{
+        display: none;
+    }
 }
